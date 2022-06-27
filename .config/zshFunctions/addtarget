@@ -1,0 +1,11 @@
+#!/usr/bin/sh
+
+function addtarget() {
+	if [ -z $1 ];then
+		echo "[!] addTarget <IP>"
+		return -1
+	fi
+
+	touch "/tmp/target"
+	echo "${1}" > /tmp/target
+}

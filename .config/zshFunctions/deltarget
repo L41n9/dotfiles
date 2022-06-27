@@ -1,0 +1,7 @@
+#!/usr/bin/sh
+
+function deltarget() {
+	if [ -f /tmp/target ];then
+		rm -f /tmp/target
+	fi
+}
