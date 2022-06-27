@@ -1,0 +1,35 @@
+[color]
+
+#background = #222526
+background = #0e0e0e
+foreground = #dfbf8e
+#black = #665c54
+black = #000000
+red = #ea6962
+green = #a9b665
+yellow = #e78a4e
+blue = #7daea3
+magenta = #d3869b
+cyan = #89b482
+purple = #9a29e3
+white = #dfbf8e
+altblack = #928374
+altred = #ea6962
+altgreen = #a9b665
+altyellow = #e3a84e
+altblue = #7daea3
+altmagenta = #d3869b
+altcyan = #89b482
+altwhite = #dfbf8e
+
+#Custom
+red1 = #cb231c
+blue2 = #4da3ea
+yellow2 = #f3cf8b
+white2 = #f5f5f5
+#yellow3 = #d69820
+yellow3 = #f1f2b3
+red2 = #a80030
+green2 = #9fef00
+pink2 = #f34b7d
+green1 = #dbe34d
