@@ -9,8 +9,6 @@ function mkwork() {
         return -1 
     fi
  	
-    touch /tmp/machineName.txt
-    echo ${1} > /tmp/machineName.txt
     workEnvironment=$HOME/"${1}"
     mkdir -p ${workEnvironment}
     mkdir -p ${workEnvironment}/enumeration
