@@ -7,6 +7,11 @@ function mkwork() {
 	fi
 
 	machineName=$1
-	mkdir -p HTB/${machineName}/{enumeration/nmap,upload,downloads,tools,exploits,discoveries}
-	cd HTB/${machineName}/enumeration/nmap
+	mkdir -p ${machineName}/enumeration/nmap
+	mkdir -p ${machineName}/upload
+	mkdir -p ${machineName}/downloads
+	mkdir -p ${machineName}/tools
+	mkdir -p ${machineName}/exploits
+	mkdir -p ${machineName}/discoveries
+	cd ~/${machineName}/enumeration/nmap
 }
