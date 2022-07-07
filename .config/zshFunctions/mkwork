@@ -13,5 +13,5 @@ function mkwork() {
 	mkdir -p ${machineName}/tools
 	mkdir -p ${machineName}/exploits
 	mkdir -p ${machineName}/discoveries
-	cd ~/${machineName}/enumeration/nmap
+	cd $(pwd)/${machineName}/enumeration/nmap
 }
