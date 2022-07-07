@@ -1,21 +1,12 @@
-#!/usr/bin/sh
+#!/usr/bin/zsh
 
 function mkwork() {
-    if [[ -z $1 ]];then
-        echo
-        echo "[-] Enter the machine name!"
-        echo
-        echo "createWorkEnvironment [MachineName]"
-        return 1
-    fi
- 	
-    workEnvironment=$HOME/"${1}"
-    mkdir -p ${workEnvironment}
-    mkdir -p ${workEnvironment}/enumeration
-    mkdir -p ${workEnvironment}/exploits
-    mkdir -p ${workEnvironment}/content
-    mkdir -p ${workEnvironment}/tools
-    mkdir -p ${workEnvironment}/downloads
-    mkdir -p ${workEnvironment}/uploads
-    cd ${workEnvironment}/enumeration
+	if [ -z $1 ];then
+		echo "(?) mkwork [machineName]"
+		return 1
+	fi
+
+	machineName=$1
+	mkdir -p HTB/${machineName}/{enumeration/nmap,upload,downloads,tools,exploits,discoveries}
+	cd HTB/${machineName}/enumeration/nmap
 }
